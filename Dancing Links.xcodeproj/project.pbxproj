@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		471585F51EE4172100B158D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471585F41EE4172100B158D0 /* main.swift */; };
+		471585FC1EE4174400B158D0 /* DancingLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471585FB1EE4174400B158D0 /* DancingLinks.swift */; };
+		47B1DB611EE6B89A005BB993 /* Dance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B1DB601EE6B89A005BB993 /* Dance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		471585F11EE4172100B158D0 /* Dancing Links */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Dancing Links"; sourceTree = BUILT_PRODUCTS_DIR; };
 		471585F41EE4172100B158D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		471585FB1EE4174400B158D0 /* DancingLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DancingLinks.swift; sourceTree = "<group>"; };
+		471585FD1EE41D9100B158D0 /* Algorithm.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Algorithm.rtf; sourceTree = "<group>"; };
+		47B1DB5F1EE56E2A005BB993 /* Algirithm2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Algirithm2.rtf; sourceTree = "<group>"; };
+		47B1DB601EE6B89A005BB993 /* Dance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				471585F41EE4172100B158D0 /* main.swift */,
+				471585FB1EE4174400B158D0 /* DancingLinks.swift */,
+				471585FD1EE41D9100B158D0 /* Algorithm.rtf */,
+				47B1DB5F1EE56E2A005BB993 /* Algirithm2.rtf */,
+				47B1DB601EE6B89A005BB993 /* Dance.swift */,
 			);
 			path = "Dancing Links";
 			sourceTree = "<group>";
@@ -121,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471585FC1EE4174400B158D0 /* DancingLinks.swift in Sources */,
 				471585F51EE4172100B158D0 /* main.swift in Sources */,
+				47B1DB611EE6B89A005BB993 /* Dance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +265,7 @@
 				471585FA1EE4172100B158D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
